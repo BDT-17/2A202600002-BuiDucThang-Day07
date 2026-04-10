@@ -93,7 +93,7 @@ Sau khi cài optional dependencies, có thể verify từng backend riêng:
 
 ```bash
 python3 - <<'PY'
-from src import LocalEmbedder
+from src import Localbedder
 
 embedder = LocalEmbedder()
 print(embedder._backend_name, len(embedder("embedding smoke test")))
